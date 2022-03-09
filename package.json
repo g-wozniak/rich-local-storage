@@ -1,7 +1,7 @@
 {
-  "name": "slick-local-storage",
-  "version": "1.0.2",
-  "description": "Smart web browser local storage that supports expiry, complex data structures (JSON objects and arrays) storing and retrieving",
+  "name": "rich-local-storage",
+  "version": "1.0.3",
+  "description": "Rich web browser local storage that supports expiry, complex data structures (JSON objects and arrays) storing and retrieving. Works well with latest ReactJS",
   "main": "index.js",
   "scripts": {
     "build": "./tools/build.sh",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/g-wozniak/smart-local-storage.git"
+    "url": "git+https://github.com/g-wozniak/rich-local-storage.git"
   },
   "author": "Grzegorz Wozniak (gwozniak@cyberforce.it)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/g-wozniak/smart-local-storage/issues"
+    "url": "https://github.com/g-wozniak/rich-local-storage/issues"
   },
-  "homepage": "https://github.com/g-wozniak/smart-local-storage#readme",
+  "homepage": "https://github.com/g-wozniak/rich-local-storage#readme",
   "devDependencies": {
     "@types/crypto-js": "^4.1.1",
     "@types/jest": "^27.4.1",
