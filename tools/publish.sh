@@ -12,6 +12,13 @@ echo '> Copying package.json'
 cp package.json ./dist/package.json
 echo ''
 
+# Copy README.md
+echo ''
+echo '> Copying README.md'
+cp README.md ./dist/README.md
+echo ''
+
+
 # Updating package.json
 echo ''
 echo '> Updating package.json'
