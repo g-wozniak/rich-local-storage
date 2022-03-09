@@ -1,6 +1,6 @@
 {
   "name": "smart-local-storage",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Smart web browser local storage that supports expiry, complex data structures (JSON objects and arrays) storing and retrieving",
   "main": "index.js",
   "scripts": {
