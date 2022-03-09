@@ -4,7 +4,9 @@
   "description": "Smart web browser local storage that supports expiry, complex data structures (JSON objects and arrays) storing and retrieving",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "./tools/build.sh",
+    "deploy": "./tools/publish.sh",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
