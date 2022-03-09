@@ -25,10 +25,10 @@ export type StoredItem = {
 export type StoredItemValue = string | number | KeyAny | string[] | number[] | null
 
 /**
- * SmartStorageItem
+ * SlickStorageItem
  * @description Extracted cache item from the cache record
  */
-export interface SmartStorageItem {
+export interface SlickStorageItem {
    dateOfStore: Date
    expiry: number
    type: string
@@ -132,12 +132,12 @@ const implode = (item: StoredItem): string => {
 /**
  * extract
  * @param {string} storedRecord cache record value retrieved just from the local storage that has no meaning to the app
- * @returns {SmartStorageItem} item previously converted to string
+ * @returns {SlickStorageItem} item previously converted to string
  * @description Unpacks the original value stored in the storage; it's a step before the full extraction
  */
-const extract = (storedRecord: string): SmartStorageItem | null => {
+const extract = (storedRecord: string): SlickStorageItem | null => {
    if (storedRecord.indexOf('|') === -1) {
-      console.info(`SmartStorage: cannot explode ${storedRecord}. Invalid format`)
+      console.info(`SlickStorage: cannot explode ${storedRecord}. Invalid format`)
       return null
    }
    const record = storedRecord.split('|')

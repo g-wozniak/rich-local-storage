@@ -4,7 +4,7 @@ interface Spies {
    [key: string]: jest.SpyInstance
 }
 
-describe('smart-local-storage', () => {
+describe('slick-local-storage', () => {
 
    const spies: Spies = {}
 
