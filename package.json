@@ -1,6 +1,6 @@
 {
   "name": "slick-local-storage",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Smart web browser local storage that supports expiry, complex data structures (JSON objects and arrays) storing and retrieving",
   "main": "index.js",
   "scripts": {
